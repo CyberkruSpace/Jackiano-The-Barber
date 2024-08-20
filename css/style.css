@@ -288,6 +288,8 @@ h1, h2, h3, h4, h5,
     .site-logo{
       font-size: 15px;
       font-weight: 17px;
+      display: flex;
+      flex-direction: flex-start;
     }
     .site-section {
       padding: 5em 0; } }
