@@ -463,16 +463,19 @@ h1, h2, h3, h4, h5,
     right: 0px; }
   .site-navbar .site-logo {
     margin: 0;
-    display: flex;
     font-size: 15px;
   }
     .site-navbar .site-logo a {
       text-transform: uppercase;
-      color: #fff; }
+      display: flex;
+      color: #fff;
+      font-size: 15px;
+    }
     @media (max-width: 991.98px) {
       .site-navbar .site-logo {
         float: left;
-        position: relative; } }
+        font-size: 15px;
+} }
   .site-navbar .site-navigation.border-bottom {
     border-bottom: 1px solid white !important; }
   .site-navbar .site-navigation .site-menu {
