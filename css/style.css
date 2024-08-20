@@ -463,7 +463,8 @@ h1, h2, h3, h4, h5,
     right: 0px; }
   .site-navbar .site-logo {
     margin: 0;
-    padding: 0;
+    display: flex;
+    font-size: 15px;
   }
     .site-navbar .site-logo a {
       text-transform: uppercase;
